@@ -1,0 +1,116 @@
+.black-minimalist-studio-logo-11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.black-minimalist-studio-logo-1-wrapper {
+  height: 106px;
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.rectangle-div {
+  height: 4.5px;
+  top: 0;
+}
+.lines-child1,
+.lines-child2,
+.rectangle-div {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+}
+.lines-child1 {
+  height: 5px;
+  top: calc(50% - 2.5px);
+}
+.lines-child2 {
+  height: 4.5px;
+  bottom: 0;
+}
+.lines1 {
+  height: 25px;
+  width: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.early-diagnose-inner,
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  width: 739px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.early-diagnose-inner {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.diagnose2 {
+  color: var(--color-darkslategray-100);
+}
+.early-diagnose4 {
+  width: 286px;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+}
+.early-diagnose3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 74px 79px 801px 577px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-orange-100);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .early-diagnose4 {
+    font-size: var(--font-size-9xl);
+  }
+  .early-diagnose3 {
+    padding-left: 288px;
+    padding-right: 39px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-div {
+    flex-wrap: wrap;
+  }
+  .early-diagnose4 {
+    font-size: var(--font-size-2xl);
+  }
+  .early-diagnose3 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
